@@ -4,9 +4,9 @@ import style from './Header.module.css';
 const Header = () => {
   return (
     <div className={style.header}>
-      <div className={style.container}>
+      <div className='container'>
         <div className={style.header_top}>
-          <a className={style.logo} href='#'>
+          <a className={style.logo} href='/#'>
             <svg
               width='154'
               height='35'
@@ -27,7 +27,18 @@ const Header = () => {
             +1 777 77 77
           </a>
         </div>
-        <div className={style.header_content}></div>
+        <div className={style.header_content}>
+          <div className={style.header_contentBox}>
+            <h1>RAY AIR POCKET</h1>
+            <p>INFLATABLE SUP BOARD</p>
+            <p>SIZES: 11'6"X31"</p>
+          </div>
+          <p className={style.header_decorText}>DOM</p>
+          <p className={style.header_decorText}>FREE</p>
+          <p className={style.header_decorText}>
+            PACK SMALL FOR BIG ADVENTURES
+          </p>
+        </div>
       </div>
     </div>
   );
