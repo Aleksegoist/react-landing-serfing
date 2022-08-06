@@ -33,9 +33,11 @@ const Header = () => {
             <p>INFLATABLE SUP BOARD</p>
             <p>SIZES: 11'6"X31"</p>
           </div>
-          <p className={style.header_decorText}>DOM</p>
-          <p className={style.header_decorText}>FREE</p>
-          <p className={style.header_decorText}>
+          <p className=''>DOM</p>
+          <p className={style.header_decorTextTwo}>FREE</p>
+          <p
+            className={`${style.header_decorTextThree} ${style.header_decorText}`}
+          >
             PACK SMALL FOR BIG ADVENTURES
           </p>
         </div>
