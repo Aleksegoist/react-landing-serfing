@@ -6,7 +6,7 @@ const Header = () => {
     <div className={style.header}>
       <div className='container'>
         <div className={style.header_top}>
-          <a className={style.logo} href='/#'>
+          <a href='/#'>
             <svg
               width='154'
               height='35'
@@ -22,7 +22,7 @@ const Header = () => {
               />
             </svg>
           </a>
-          <button className={style.button_btn}>BUY</button>
+          <button>BUY</button>
           <a className={style.header_phone} href='tel:+17777777'>
             +1 777 77 77
           </a>

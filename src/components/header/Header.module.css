@@ -2,7 +2,9 @@
   background-image: url(../../assets/header-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
 }
 
 .header_top {
@@ -13,7 +15,67 @@
   gap: 100px;
 }
 
+.header_top a svg path {
+  transition: fill 0.4s ease;
+}
+
 .header_top a svg path:hover {
   fill: #0093a1;
-  transition: fill 0.3s;
+}
+
+.header_top button {
+  padding: 12px 71px;
+  font-family: 'Comfortaa';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 22px;
+  color: white;
+  border: none;
+  background: #262c27;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.header_top .header_phone {
+  font-family: 'Comfortaa';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #262c27;
+  cursor: default;
+}
+
+.header_content {
+  min-height: calc(100vh - 166px);
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.header_contentBox {
+  font-family: 'Comfortaa', cursive;
+  max-width: 550px;
+  text-align: center;
+  margin-right: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.header_contentBox h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 71px;
+  margin-bottom: 20px;
+}
+
+.header_contentBox p {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 27px;
+  margin-bottom: 20px;
+}
+
+.header_decorText {
+  position: absolute;
+  top: 0;
 }
