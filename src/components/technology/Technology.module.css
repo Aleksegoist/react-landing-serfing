@@ -1,0 +1,37 @@
+.technology {
+  margin-bottom: 150px;
+}
+
+.technology_top {
+  background-image: url(../../assets/bg-technology.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.technology_top_inner {
+  min-height: 110vh;
+  position: relative;
+}
+
+.technology_top_inner button {
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  top: 50vh;
+  right: 350px;
+}
+
+.technology_top_inner button span {
+  padding-top: 12px;
+  display: block;
+  color: white;
+}
+
+.technology_top_box {
+  position: absolute;
+  left: 0;
+  bottom: 85px;
+}
