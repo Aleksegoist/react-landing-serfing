@@ -1,1 +1,77 @@
-.airPocket {}
+.airPocket {
+  padding: 150px 0;
+}
+
+.buy_box {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+
+.buy_content {
+  width: 510px;
+  position: relative;
+}
+
+.buy_content h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 60px;
+  color: #0093a1;
+  line-height: 67px;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+}
+
+.buy_content li {
+  margin-bottom: 25px;
+  width: 285px;
+}
+
+.buy_content p:nth-child(1) {
+  font-weight: 700;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  transition: color 0.4s;
+}
+
+.buy_content p:nth-child(1):hover {
+  color: #0093a1;
+}
+
+.buy_price {
+  position: absolute;
+  width: 201px;
+  height: 199px;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 43px;
+  background-image: url(../../assets/start.svg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  bottom: 130px;
+}
+
+.buy_content button {
+  color: #0093a1;
+  font-family: 'Comfortaa', cursive;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 45px;
+  padding: 18px;
+  text-align: center;
+  max-width: 484px;
+  width: 100%;
+  border: solid 2px #0093a1;
+  background: transparent;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.buy_content button:hover {
+  background: #b9c400;
+  color: black;
+  border-color: #b9c400;
+}
