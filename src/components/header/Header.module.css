@@ -108,8 +108,29 @@
 
 .header_decorText {
   position: absolute;
-  bottom: 20px;
+  bottom: 25px;
   color: #0093a1;
+}
+
+.header_decorTextOne {
+  right: 145px;
+  z-index: 1;
+  bottom: 120px;
+}
+
+.header_decorTextTwo {
+  left: 265px;
+  z-index: 4;
+  bottom: 0;
+}
+
+.header_decorTextOne,
+.header_decorTextTwo {
+  font-family: 'Comfortaa', cursive;
+  font-weight: 400;
+  font-size: 130px;
+  line-height: 145px;
+  opacity: 0.3;
 }
 
 .header_decorTextThree {
