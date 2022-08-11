@@ -5,6 +5,7 @@
   background-position: center;
   position: relative;
   margin-top: 55px;
+  padding-top: 100px;
 }
 
 .info::before {
@@ -17,4 +18,64 @@
   right: 0;
   transform: translateY(-90px);
   z-index: 1;
+}
+
+.info_top {
+  display: flex;
+  gap: 80px;
+  margin-bottom: 70vh;
+}
+
+.info_top p:nth-child(1) {
+  margin-top: 245px;
+  width: 290px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  position: relative;
+  padding-bottom: 125px;
+}
+
+.info_top p:nth-child(2) {
+  margin-top: 245px;
+  width: 290px;
+  font-family: 'Inter', sans-serif;
+  color: white;
+  position: relative;
+  border-bottom: 1px solid white;
+}
+
+.info_top img {
+  position: relative;
+  z-index: 6;
+  /* margin-top: 60px; */
+}
+
+.info_top button {
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.info_top button span {
+  padding-top: 12px;
+  display: block;
+  color: white;
+}
+
+.specs {
+  display: flex;
+  align-items: center;
+  gap: 130px;
+}
+
+.specs h3 {
+  font-family: 'Comfortaa', cursive;
+  font-size: 60px;
+  line-height: 67px;
+  color: white;
+  font-weight: 400;
 }
