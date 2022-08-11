@@ -66,6 +66,12 @@
   cursor: pointer;
 }
 
+.header_top button:hover {
+  background: #b9c400;
+  color: #262c27;
+  transition: 0.8s;
+}
+
 .header_top .header_phone {
   font-family: 'Comfortaa';
   font-size: 20px;

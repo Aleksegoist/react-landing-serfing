@@ -1,3 +1,4 @@
+import AirPocket from "./components/airPocket/AirPocket";
 import Header from "./components/header/Header";
 import Info from "./components/info/Info";
 
@@ -8,6 +9,7 @@ const App = () => {
     <div className="App">
       <Header />
       <Info />
+      <AirPocket />
     </div>
   );
 }

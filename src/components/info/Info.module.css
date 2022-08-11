@@ -70,12 +70,32 @@
   display: flex;
   align-items: center;
   gap: 130px;
+  color: white;
+  padding-bottom: 50px;
 }
 
 .specs h3 {
   font-family: 'Comfortaa', cursive;
   font-size: 60px;
   line-height: 67px;
-  color: white;
   font-weight: 400;
+  width: 250px;
+}
+
+.specs ul {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  padding: 30px 0;
+  width: 565px;
+  font-weight: 700;
+}
+
+.specs li {
+  margin-bottom: 15px;
+  display: flex;
+  gap: 25px;
+}
+
+.specs p:nth-child(1) {
+  width: 190px;
 }
