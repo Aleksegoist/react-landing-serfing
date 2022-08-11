@@ -1,0 +1,20 @@
+.info {
+  background-image: url(../../assets/info-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 55px;
+}
+
+.info::before {
+  content: '';
+  position: absolute;
+  height: 140px;
+  background-color: #262c27;
+  top: 0;
+  left: 0;
+  right: 0;
+  transform: translateY(-90px);
+  z-index: 1;
+}
