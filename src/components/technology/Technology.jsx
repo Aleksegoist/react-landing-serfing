@@ -16,7 +16,7 @@ const Technology = () => {
       <div className={style.technology_top}>
         <div className='container'>
           <div className={style.technology_top_inner}>
-            <button className='video_btn'>
+            <button>
               <svg
                 width='70'
                 height='70'

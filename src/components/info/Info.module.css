@@ -60,10 +60,28 @@
   right: 0;
 }
 
+.info_top path,
+.info_top circle {
+  transition: all 0.3s;
+}
+
+.info_top button svg:hover circle {
+  stroke: #b9c400;
+}
+
+.info_top button svg:hover path {
+  fill: #b9c400;
+}
+
 .info_top button span {
   padding-top: 12px;
   display: block;
   color: white;
+  transition: color 0.3s;
+}
+
+.info_top button:hover span {
+  color: #0093a1;
 }
 
 .specs {

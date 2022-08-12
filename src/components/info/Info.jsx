@@ -14,7 +14,7 @@ const Info = () => {
               The ultra travel-friendly touring iSUP is built in a tough but
               light construction that allows it to be packed into a backpack
               half the size of a regular iSUP.
-              <button className='video_btn'>
+              <button>
                 <svg
                   width='70'
                   height='70'

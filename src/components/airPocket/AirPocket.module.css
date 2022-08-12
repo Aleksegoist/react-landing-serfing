@@ -52,6 +52,11 @@
   align-items: center;
   right: 0;
   bottom: 130px;
+  transition: transform 0.3s;
+}
+
+.buy_price:hover {
+  transform: scale(1.3);
 }
 
 .buy_content button {

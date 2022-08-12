@@ -63,3 +63,11 @@
   justify-content: space-between;
   font-weight: 700;
 }
+
+.footer_top a svg path {
+  transition: fill 0.3s;
+}
+
+.footer_top a svg path:hover {
+  fill: #0093a1;
+}

@@ -150,3 +150,9 @@
   font-style: italic;
   text-align: center;
 }
+
+@media screen and (max-width: 1230px) {
+  .header_decorTextTwo {
+    left: 0;
+  }
+}

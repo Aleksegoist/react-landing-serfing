@@ -24,10 +24,28 @@
   right: 350px;
 }
 
+.technology_top_inner path,
+.technology_top_inner circle {
+  transition: all 0.3s;
+}
+
+.technology_top_inner button svg:hover circle {
+  stroke: #b9c400;
+}
+
+.technology_top_inner button svg:hover path {
+  fill: #b9c400;
+}
+
 .technology_top_inner button span {
   padding-top: 12px;
   display: block;
   color: white;
+  transition: color 0.3s;
+}
+
+.technology_top_inner button:hover span {
+  color: #0093a1;
 }
 
 .technology_top_box {
