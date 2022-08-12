@@ -1,4 +1,5 @@
 import AirPocket from "./components/airPocket/AirPocket";
+import Footer from "./components/footer/Footer";
 import Header from "./components/header/Header";
 import Info from "./components/info/Info";
 import Technology from "./components/technology/Technology";
@@ -12,6 +13,7 @@ const App = () => {
       <Info />
       <AirPocket />
       <Technology />
+      <Footer />
     </div>
   );
 }
