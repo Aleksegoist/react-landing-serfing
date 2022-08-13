@@ -12,8 +12,8 @@ const App = () => {
       <Header />
       <Info />
       <AirPocket />
-      {/* <Technology />
-      <Footer /> */}
+      <Technology />
+      <Footer />
     </div>
   );
 }
