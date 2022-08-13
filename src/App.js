@@ -11,8 +11,8 @@ const App = () => {
     <div className="App">
       <Header />
       <Info />
-      {/* <AirPocket />
-      <Technology />
+      <AirPocket />
+      {/* <Technology />
       <Footer /> */}
     </div>
   );

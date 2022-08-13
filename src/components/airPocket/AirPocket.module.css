@@ -81,3 +81,54 @@
   color: black;
   border-color: #b9c400;
 }
+
+@media screen and (max-width: 1230px) {
+  .buy_box {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .buy_box img {
+    order: -1;
+    min-width: 100%;
+  }
+
+  .buy_content {
+    width: 100%;
+  }
+
+  .buy_price {
+    pointer-events: none;
+  }
+  .buy_content li {
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+@media screen and (max-width: 840px) {
+  .buy_price {
+    bottom: auto;
+    top: -350px;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .buy_content h3 {
+    font-size: 48px;
+    line-height: 56px;
+  }
+
+  .airPocket {
+    padding: 90px 0 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .buy_price {
+    background-size: cover;
+    width: 170px;
+    height: 170px;
+    top: -185px;
+  }
+}
