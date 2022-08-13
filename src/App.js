@@ -11,9 +11,9 @@ const App = () => {
     <div className="App">
       <Header />
       <Info />
-      <AirPocket />
+      {/* <AirPocket />
       <Technology />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }

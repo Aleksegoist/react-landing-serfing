@@ -5,6 +5,7 @@
   background-position: center;
   min-height: 100vh;
   position: relative;
+  margin-bottom: 80px;
 }
 
 .header::before {
@@ -154,5 +155,38 @@
 @media screen and (max-width: 1230px) {
   .header_decorTextTwo {
     left: 0;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .header_top {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 100px;
+  }
+
+  .header_top button {
+    width: 70%;
+  }
+
+  .header_contentBox {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .header_decorText {
+    display: none;
+  }
+
+  .header_content {
+    z-index: 5;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .header_contentBox h1 {
+    font-size: 55px;
+    line-height: 60px;
   }
 }

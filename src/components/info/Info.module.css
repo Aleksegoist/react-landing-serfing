@@ -117,3 +117,44 @@
 .specs p:nth-child(1) {
   width: 190px;
 }
+
+@media screen and (max-width: 1000px) {
+  .info_top {
+    display: block;
+  }
+
+  .info_top p:nth-child(1) {
+    width: 100%;
+  }
+
+  .info_top p:nth-child(2) {
+    width: 100%;
+    padding-bottom: 25px;
+    padding-top: 45px;
+    margin-top: 0;
+  }
+
+  .info_top img {
+    width: 227px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .specs {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .specs ul {
+    width: 100%;
+  }
+
+  .specs li {
+    display: block;
+  }
+
+  .info {
+    background-position: unset;
+  }
+}
